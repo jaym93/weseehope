@@ -1,0 +1,279 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Information Visualization Project, CS7450">
+    <meta name="keywords" content="Visualization, Georgia Tech, CS7450">
+    <meta name="author" content="Jayanth Mohana Krishna, Lauren Winston, Nan Hong, Mehmet Ordu">
+
+    <title>WeSeeHope &middot; Statistics Visualization</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic" rel="stylesheet">
+    <link href="assets/css/toolkit-inverse.css" rel="stylesheet">
+    <link href="assets/css/application.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <div class="bw">
+        <div class="fu">
+            <div class="ge aom">
+                <nav class="aot">
+                    <div class="aon">
+                        <button class="amy amz aoo" type="button" data-toggle="collapse" data-target="#nav-toggleable-sm">
+                            <span class="ct">Toggle nav</span>
+                        </button>
+                        <a class="aop cn" href="index.html">
+                            <center><img src="assets/img/WSH-in-circle-300x285.png" /></center>
+                        </a>
+                    </div>
+
+                    <div class="collapse and" id="nav-toggleable-sm">
+                        <!--<form class="aor">
+                          <input class="form-control" type="text" placeholder="Search...">
+                          <button type="submit" class="fm">
+                            <span class="bv adn"></span>
+                          </button>
+                        </form>-->
+                        <ul class="nav of nav-stacked">
+                            <li class="tq">Visualizations</li>
+                            <li class="active">
+                                <a href="#sec-overview">Overview</a>
+                            </li>
+                            <li>
+                                <a href="#sec-comparision">Comparisions</a>
+                            </li>
+                            <li>
+                                <a href="#sec-statistics">Statistics</a>
+                            </li>
+                            <li>
+                                <a href="#sec-profits">Profits</a>
+                            </li>
+
+                            <li class="tq">Data</li>
+                            <li>
+                                <a href="#sec-tables">Stat Tables</a>
+                            </li>
+                            <!--<li>
+                              <a href="http://www.weseehope.org.uk/our-story/" target="blank">Story</a>
+                            </li>
+                            <li >
+                              <a href="http://www.weseehope.org.uk/our-finances/">Fianaces</a>
+                            </li>-->
+                            <!--<li>
+                              <a href="#docsModal" data-toggle="modal">
+                                Example modal
+                              </a>
+                            </li>-->
+                        </ul>
+                        <hr class="rw aky">
+                    </div>
+                </nav>
+            </div>
+            <div class="hc aps">
+                <div class="apa" id="sec-overview">
+                    <div class="apb">
+                        <h6 class="apd">Dashboards</h6>
+                        <h2 class="apc">Overview</h2>
+                    </div>
+                    <div class="ob ape">
+                        <div class="tn aol">
+                            <input type="text" size="100" value="04 December 2014 - 28 July 2015" class="form-control" readonly>
+                            <span class="bv wt"></span>
+                        </div>
+                    </div>
+                    <div id="vis-overview" style="min-width: 310px; height: 400px; margin: 20px auto"></div>
+                </div>
+
+                <hr class="aky">
+
+                <div class="apa" id="sec-comparision">
+                    <div class="apb">
+                        <h6 class="apd">Visualization</h6>
+                        <h2 class="apc">Comparision</h2>
+                    </div>
+                    <div class="ob ape">
+                        <div class="tn aol">
+                            <input type="text" size="100" value="04 December 2014 - 28 July 2015" class="form-control" readonly>
+                            <span class="bv wt"></span>
+                        </div>
+                    </div>
+                    <div id="vis-comparision" style="min-width: 310px; height: 400px; margin: 20px auto"></div>
+
+                </div>
+
+                <hr class="aky">
+
+                <div class="apa" id="sec-statistics">
+                    <div class="apb">
+                        <h6 class="apd">Visualization</h6>
+                        <h2 class="apc">Statistics <small class="ank anm">5%</small> </h2>
+                    </div>
+
+                    <div class="ob ape">
+                        <div class="tn aol">
+                            <input type="text" size="100" value="04 December 2014 - 28 July 2015" class="form-control" readonly>
+                            <span class="bv wt"></span>
+                        </div>
+                    </div>
+                    <div id="vis-statistics" style="min-width: 310px; height: 400px; margin: 20px auto"></div>
+                </div>
+
+                <hr class="aky">
+                <div class="apa" id="sec-profits">
+                    <div class="apb">
+                        <h6 class="apd">Visualization</h6>
+                        <h2 class="apc">Profits <small class="ank anl">10%</small> </h2>
+                    </div>
+
+                    <div class="ob ape">
+                        <div class="tn aol">
+                            <input type="text" size="100" value="04 December 2014 - 28 July 2015" class="form-control" readonly>
+                            <span class="bv wt"></span>
+                        </div>
+                    </div>
+                    <div id="vis-profits" style="min-width: 310px; height: 400px; margin: 20px auto"></div>
+                </div>
+
+                <div class="fu db aln">
+
+                </div>
+
+                <hr class="aky">
+                <div class="apa" id="sec-tables">
+                    <div class="apb">
+                        <h6 class="apd">Data</h6>
+                        <h2 class="apc">Select parameters</h2>
+                    </div>
+
+                    <div class="ob ape">
+                        <select class="anz">
+                            <option>Countries</option>
+                            <option>Groups</option>
+                            <option>Partners</option>
+                        </select>
+                        <select class="anz">
+                            <option>Members</option>
+                            <option>Males</option>
+                            <option>Females</option>
+                            <option>Active profits</option>
+                            <option>Orphans supported</option>
+                            <option>Vulnerable children</option>
+                            <option>Other...</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="fu">
+                    <div class="by ali">
+                        <div class="by">
+                            <h4 class="ty">
+                                Countries
+                            </h4>
+
+                            <a class="ph" href="#">
+                                <span class="tz" style="width: 62.4%;"></span>
+                                <span class="dy dh">62.4%</span>
+                                United States
+                            </a>
+
+                            <a class="ph" href="#">
+                                <span class="tz" style="width: 15.0%;"></span>
+                                <span class="dy dh">15.0%</span>
+                                India
+                            </a>
+
+                            <a class="ph" href="#">
+                                <span class="tz" style="width: 5.0%;"></span>
+                                <span class="dy dh">5.0%</span>
+                                United Kingdom
+                            </a>
+
+                            <a class="ph" href="#">
+                                <span class="tz" style="width: 5.0%;"></span>
+                                <span class="dy dh">5.0%</span>
+                                Canada
+                            </a>
+
+                            <a class="ph" href="#">
+                                <span class="tz" style="width: 4.5%;"></span>
+                                <span class="dy dh">4.5%</span>
+                                Russia
+                            </a>
+
+                            <a class="ph" href="#">
+                                <span class="tz" style="width: 2.3%;"></span>
+                                <span class="dy dh">2.3%</span>
+                                Mexico
+                            </a>
+
+                            <a class="ph" href="#">
+                                <span class="tz" style="width: 1.7%;"></span>
+                                <span class="dy dh">1.7%</span>
+                                Spain
+                            </a>
+
+                            <a class="ph" href="#">
+                                <span class="tz" style="width: 1.5%;"></span>
+                                <span class="dy dh">1.5%</span>
+                                France
+                            </a>
+
+                            <a class="ph" href="#">
+                                <span class="tz" style="width: 1.4%;"></span>
+                                <span class="dy dh">1.4%</span>
+                                South Africa
+                            </a>
+
+                            <a class="ph" href="#">
+                                <span class="tz" style="width: 1.2%;"></span>
+                                <span class="dy dh">1.2%</span>
+                                Japan
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="docsModal" class="cb fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="ri">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Example modal</h4>
+                </div>
+                <div class="modal-body">
+                    <p>You're looking at an example modal in the dashboard theme.</p>
+                </div>
+                <div class="rj">
+                    <button type="button" class="ce fh" data-dismiss="modal">Cool, got it!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/chart.js"></script>
+    <script src="assets/js/tablesorter.min.js"></script>
+    <script src="assets/js/toolkit.js"></script>
+    <script src="assets/js/application.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="assets/js/vis.js"></script>
+    <script>
+        // execute/clear BS loaders for docs
+        $(function () { while (window.BS && window.BS.loader && window.BS.loader.length) { (window.BS.loader.pop())() } })
+    </script>
+</body>
+
+</html>
