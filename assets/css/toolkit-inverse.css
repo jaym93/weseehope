@@ -1982,8 +1982,8 @@ input[type="button"].btn-block {
 .ft {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .fu {
   margin-left: -15px;
@@ -1994,6 +1994,7 @@ input[type="button"].btn-block {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
+  margin-top: 30px;
 }
 .fv, .fz, .gd, .gh, .gl, .gp, .gt, .gx, .hb, .hf, .hj, .hn {
   float: left;
@@ -9158,16 +9159,17 @@ canvas {
   line-height: 1;
   color: #51586a;
 }
-.aop > center > img {
+
+.aop > img {
   height: 40px;
 }
 @media (min-width: 768px) {
-  .aop > center > img {
+  .aop > img {
     height: 100px;
   }
 }
 @media (min-width: 992px) {
-  .aop > center > img {
+  .aop > img {
     height: 175px;
   }
 }
@@ -9328,6 +9330,10 @@ canvas {
     -webkit-overflow-scrolling: touch;
     white-space: nowrap;
   }
+}
+
+.apa {
+  padding-top: 20px;
 }
 .apa:before,
 .apa:after {
